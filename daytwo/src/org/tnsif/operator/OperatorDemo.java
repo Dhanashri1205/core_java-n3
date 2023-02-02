@@ -27,6 +27,7 @@ public class OperatorDemo {
 		
 		//Logical operator
 		//
+		//
 		boolean res2=(5==5)&&(5>3);
 		boolean res3=(5==3)||(5>2);
 		boolean res4=!(5!=4);
