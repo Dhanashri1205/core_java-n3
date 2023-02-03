@@ -42,7 +42,7 @@ public class OperatorDemo {
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
-		
+		//
 		//Ternary operator
 		String res5=(12%2==0)?"True":"False";
 		System.out.println(res5);
