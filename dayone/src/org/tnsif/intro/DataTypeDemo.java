@@ -1,5 +1,5 @@
 package org.tnsif.intro;
-
+//to demonstrate an example of data types
 public class DataTypeDemo {
 
 	public static void main(String[] args) {
