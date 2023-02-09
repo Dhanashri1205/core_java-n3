@@ -17,8 +17,8 @@ public class DataTypeDemo {
 		float d=5/2.5f;
 		
 		//double 4 byte
-		double e=12/5;
-		double f=12d/5d;
+		double e=12/5;//2.0
+		double f=12d/5d;//2.4
 		
 		//character 1 byte
 		char g='S';
