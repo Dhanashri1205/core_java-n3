@@ -15,7 +15,7 @@ public class Client {
 		System.out.println(p);
 	
 
-		System.out.println("Non Prime account: ");
+		System.out.println("\nNon Prime account: ");
 		System.out.println(n);
 		n.bookProduct(n.getCharges());
 
