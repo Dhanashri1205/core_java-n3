@@ -2,7 +2,8 @@ package org.tnsif.framework;
 
 public abstract class SavingAcc extends BankAcc {
 	private boolean isSalaried;
-	private static final float minibal=0.0f;
+	private static final float minibal=2000f;
+	final private float withdrawAmount=5000f;
 
 	public SavingAcc(int accNo, String accNm, float accBal, boolean isSalaried) {
 		super(accNo, accNm, accBal);
@@ -16,9 +17,12 @@ public abstract class SavingAcc extends BankAcc {
 	}
 	
 	public void withdraw(float accBal) {
+		
 		System.out.println("Account no: "+this.getAccNo()+" "
 	+"Account name: "+this.getAccNm()+" "
-				+"Account balance: "+this.getAccBal()+this.minibal);
+				+"Account balance: "+this.getAccBal()+" "+"Minimum balance: "+minibal);
+		System.out.println("withdraw ammount: "+withdrawAmount);
+		System.out.println("Account balance is: "+(accBal-withdrawAmount));
 		
 	}
 
