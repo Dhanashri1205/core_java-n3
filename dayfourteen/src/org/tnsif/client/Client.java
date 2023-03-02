@@ -17,7 +17,7 @@ public class Client {
 		do
 		{
 			System.out.println("Enter the choice: ");
-			System.out.println("1.Insert "+"2.update"+"3.delete"+"4.retriveall"+
+			System.out.println("1.Insert "+"2.update "+"3.delete "+"4.retriveall"+
 			"5.retreive"+ "\n-1: exit");
 			choice=sc.nextInt();
 			switch(choice)
